@@ -11,6 +11,17 @@ This shell script transfers all repositories of a specified user to a specified 
 
 ## Usage
 
+1. set variables in github_repo_transfer.sh
+
+```
+user_name=""
+org_name=""
+# https://github.com/settings/tokens -> Generate new token
+token=""
+```
+
+2. run script
+
 ```
 $ sh github_repo_transfer.sh
 ```
